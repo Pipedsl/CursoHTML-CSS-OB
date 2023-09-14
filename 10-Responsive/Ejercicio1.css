@@ -1,0 +1,42 @@
+.contenedor {
+    padding: 0px;
+    display: flex;
+    gap: 0.5rem;
+    min-height: 5rem;
+    /*Eje principal*/
+    justify-content:space-around;
+
+    /*Eje secundario*/
+    /* align-items: center; */
+
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+
+    /* flex-wrap: wrap; */
+
+}
+
+.izquierda {
+    display: grid;
+    justify-content: left;
+}
+
+.elemento1 {
+    background-color: antiquewhite;
+}
+
+.elemento2 {
+    background-color: beige;
+}
+
+.elemento3 {
+    background-color: bisque;
+}
+
+.derecha {
+    flex-grow: initial;
+    background-color: aqua;
+    justify-content: right;
+    align-items: flex-start;
+}

@@ -1,0 +1,24 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn-modern {
+    border: none;
+    border-radius: 5px;
+    transition: all 0.4s;
+    background-color: rgb(86, 86, 86);
+    color: rgb(171, 75, 171);
+}
+
+.btn-modern:hover {
+    transform: translateY(-5px);
+    /* border-bottom: 2px solid black; */ /* efecto 3D */
+    background-color: #333;
+    color: blueviolet;
+    box-shadow: 0 5px 10px violet;
+}

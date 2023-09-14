@@ -1,0 +1,29 @@
+/* (1,0,0) */
+/* (0,1,0) */
+/* (0,0,1) */
+/* (0,0,0) */
+
+h1#h1-id\ h1-otroid.h1-clase {
+    color: chartreuse;
+}
+#h1-id.h1-clase {
+    color: blueviolet;
+}
+
+#h1-id {
+    color: darksalmon;
+}
+
+.h1-clase {
+    color: yellow;
+}
+
+h1 {
+    color: blue !important; /* Con la etiqueta important prevalece sobre el resto aunque sea poca la especificidad, es recomendable evitar utilizarlo */
+}
+
+
+
+p {
+    color: red;
+}

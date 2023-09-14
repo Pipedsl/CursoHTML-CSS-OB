@@ -1,0 +1,5 @@
+.flex-box {
+    display: flexbox;
+    width: 300px;
+    flex-wrap: wrap;
+}
